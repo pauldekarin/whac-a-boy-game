@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mainLayout"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/playerView"
+
+            app:use_controller="false"
+            app:resize_mode="zoom"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+
+            android:alpha="1"
+            android:id="@+id/launchLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/playButton"
+                android:textSize="@dimen/sizeTextGameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="@string/play_button"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nordic"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/settingsButton"
+                android:layout_marginTop="@dimen/sizeTextGameButton"
+                android:textSize="@dimen/sizeTextGameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level_button"
+                android:background="@drawable/button"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nordic"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="50dp"
+            android:alpha="0"
+            android:id="@+id/settingsLayout"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/lowLevelButton"
+                android:text="@string/low_level_button"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nordic"
+                android:textSize="@dimen/sizeTextGameButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mediumLevelButton"
+                android:layout_marginTop="30dp"
+                android:text="@string/medium_level_button"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sizeTextGameButton"
+                android:fontFamily="@font/nordic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/hardLevelButton"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nordic"
+                android:textSize="@dimen/sizeTextGameButton"
+                android:textColor="@color/white"
+                android:text="@string/hard_level_button"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backButton"
+                android:background="@drawable/button"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nordic"
+                android:textSize="@dimen/sizeTextGameButton"
+                android:textColor="@color/white"
+                android:text="@string/back_button"/>
+
+        </LinearLayout>
+
+    <include
+        android:id="@+id/musicButton"
+        layout="@layout/music_button"/>
+    </RelativeLayout>
+    <!--
+    <FrameLayout
+        android:id="@+id/splashLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/splash"/>
+    </FrameLayout>
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
