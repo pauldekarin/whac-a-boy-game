@@ -2,4 +2,4 @@
 Игра в стиле "Ударь крота"
 <br>
 <h1>Softwares<h1>
-<img src="https://imgur.com/a/W2MuhdT"/>
+<img src="Softwares.png"/>
