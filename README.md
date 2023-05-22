@@ -5,7 +5,7 @@
     <img src="footage/softwares_image.png"/>
 <br>
   <h1>Unity3D</h1>
-<li>Прописана логика игры </li>
+<li>_Прописана логика игры_ </li>
 <li>3 Уровня сложности</li>
 <li>Экспортирован проект как модуль для Android Studio</li>
   
@@ -15,5 +15,5 @@
   <h1>Android Studio</h1>
 <br>
   <h1>Gameplay</h1>
-    <img src="footage/gameplay.gif"/>
+    ![](footage/gameplay.mp4)
 
