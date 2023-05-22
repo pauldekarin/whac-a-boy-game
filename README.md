@@ -5,10 +5,10 @@
     <img src="footage/softwares_image.png"/>
 <br>
   <h1>Unity3D</h1>
-  -_Прописана логика игры_
-  -3 Уровня сложности\
-  -Экспортирован проект как модуль для Android Studio
-  -
+<li>Прописана логика игры </li>
+<li>3 Уровня сложности</li>
+<li>Экспортирован проект как модуль для Android Studio</li>
+  
 <br>
   <h1>Blender</h1>
 <br>
