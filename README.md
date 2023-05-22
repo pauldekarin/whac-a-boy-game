@@ -2,4 +2,3 @@
 Игра в стиле "Ударь крота"
 <br>
 <h1>Softwares<h1>
-<img src="Softwares.png"/>
