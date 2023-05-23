@@ -1,7 +1,9 @@
 Whac A Boy
 ==========
 
-Игра в стиле "Ударь крота". 
+Игра для устройств на платформе Android, вдохновленная классикой старых времен "Ударь крота" (Whac-A-Mole). Только теперь мы играем за крота, который выступает в роли игрока и следит за поведением детей в школе во время урока.\
+\
+P.S. Или же он просто мстит своим обидчикам, которые так много раз били его по голове.
 
 Softwares
 ---------
@@ -13,7 +15,7 @@ Unity3D
 *-Логика игры*\
 *-3 Уровня сложности*\
 *-Shading*\
-*-Модуль для Android Studio, который использовал как Activity самой игры*
+*-Модуль для Android Studio, который используется как Activity самой игры*
   
 Blender
 -----------
@@ -35,7 +37,7 @@ Android Studio
 
 GamePlay
 ===========
-<a href="https://youtu.be/lf6Qf8Lmblc" target="_blank"><img src="http://img.youtube.com/vi/lf6Qf8Lmblc/0.jpg" 
+<a href="https://youtu.be/lf6Qf8Lmblc" target="_blank"><img src="footage/softwares_image.png" 
 alt="GAMEPLAY" width="600"/></a>
 
 
