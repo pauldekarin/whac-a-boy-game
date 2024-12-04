@@ -1,48 +1,35 @@
-Whac A Boy
-==========
+# Whac A Boy
 
-Игра для устройств на платформе Android, вдохновленная классикой старых времен "Ударь крота" (Whac-A-Mole). Только теперь мы играем за крота, который выступает в роли главного героя и следит за поведением детей в школе во время урока.\
-\
-P.S. Или же он просто мстит своим обидчикам, которые так много раз били его по голове.
+## Overview
 
-Softwares
----------
+**Whac A Boy** is an Android platform game inspired by the classic "Whac-A-Mole". In this version, the player takes on the role of the mole, who either keeps an eye on the students in the classroom or simply seeks revenge on those who have hit him on the head numerous times.
 
-![](footage/softwares_image.png)
+## Development Tools
 
-Unity3D
--------------
-*-Логика игры*\
-*-3 Уровня сложности*\
-*-Shading*\
-*-Модуль для Android Studio, который используется как Activity самой игры*
-  
-Blender
------------
+### Unity3D
 
-*-Моделирование персонажей и обьектов*\
-*-Level Design*\
-*-Shading*\
-*-Анимация для начального меню и меню результата игры*\
-*-Создание Splash окна между переходами разными Activity*\
+- **Game Logic**: Implemented the core game mechanics.
+- **Three Difficulty Levels**: Easy, medium, and hard levels of play.
+- **Shading**: Applied shading techniques for visual enhancement.
+- **Module for Android Studio**: Used as an Activity for the game.
 
-Android Studio
------------
+### Blender
 
-*-ExoPlayer использовал в качестве проигрывателя видео, которое запускается при нажатии на кнопку ```LEVEL```,\
-а при нажатии на ```BACK``` проигрывается реверснутое видео*\
-*-Начальный экран и экран результата игры*\
-*-Модуль для общения между Activity Android и Activity Unity3D*\
-*-Сервис для проигрывания музыки*
+- **Character and Object Modeling**: Created models for characters and objects.
+- **Level Design**: Designed the game levels.
+- **Shading**: Applied shading to models.
+- **Animation**: Developed animations for the main menu and result menu.
+- **Splash Screen**: Created a splash screen for transitions between different Activities.
 
-GamePlay
-===========
-<a href="https://youtu.be/lf6Qf8Lmblc" target="_blank"><img src="footage/sign.png" 
-alt="GAMEPLAY" width="1080"/></a>
+### Android Studio
 
-Questions
----------
+- **ExoPlayer**: Used for playing videos upon clicking the `LEVEL` button and reversing the video on clicking `BACK`.
+- **Initial and Result Screens**: Developed the initial screen and result screen for the game.
+- **Module for Communication**: Facilitated communication between Android Activity and Unity3D Activity.
+- **Music Service**: Implemented a service for playing background music.
 
--Почему я не написал игру полностью на Unity3D? Начальное меню и меню результата добавил костылями в Android Studio, а не прописал отдельные Screen-ы в Unity3D.\
--Хотелось поработать в нескольких программах. Конечно, логичнее было разработать игру на одной платформе, поскольку как таковых нативных функции Android я не использовал при создании игры, чтобы совмещать эти две платформы, но поскольку я обучаюсь, то это самый обычный порыв любопытства.
+## GamePlay
+
+[![GAMEPLAY](footage/sign.png)](https://youtu.be/lf6Qf8Lmblc)
+
 
